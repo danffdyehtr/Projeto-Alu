@@ -1,0 +1,365 @@
+v</ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem"></ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">vvv</ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem"></ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">v</ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem"></ul>
+<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">v
+v<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+<h1 class="container__titulo">Alura Books</h1><img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+<h1 class="container__titulo">Alura Books</h1><img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+<h1 class="container__titulo">Alura Books</h1>v<img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+<h1 class="container__titulo">Alura Books</h1><img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+<h1 class="container__titulo">Alura Books</h1>
+v<h1 class="container__titulo">
+  <b class="container__titulo--negrito">Alura</b>Books
+</h1>v
+v<link
+  href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/><link
+  href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+vv:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+  --fonte-secundario: "Josefin Sans";
+}
+vvv@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+vvv@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+
+  .container__titulo {
+    font-weight: 400;
+  }
+
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+v@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+vv.container__titulo {
+  display: none;
+vvv<ul class="opções"></ul>v
+v<ul class="opções">
+  <li class="opções__item"></li>
+  <li class="opções__item"></li>
+  <li class="opções__item"></li>
+</ul><ul class="opções">
+  <li class="opções__item"></li>
+  <li class="opções__item"></li>
+  <li class="opções__item"></li>
+</
+vv<ul class="opções">
+  <li class="opções__item">Categorias</li>
+  <li class="opções__item"></li>
+  <li class="opções__item"></li>
+</ul>
+<ul class="opções">
+  <li class="opções__item">Categorias</li>
+  <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+  <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+</ul>v
+vvv@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções {
+    display: flex;
+  }
+}
+vv@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+}v:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+  --fonte-secundario: "Josefin Sans";
+  --preto: #000000;
+}:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+  --fonte-secundario: "Josefin Sans";
+  --preto: #000000;
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções__link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+}
+vv.opções {
+  display: none;
+}
+vv<div class="container">
+  <a href="#"
+    ><img
+      src="img/Favoritos.svg"
+      alt="Meus favoritos"
+      class="container__imagem"
+  /></a>
+
+  <!-- Código omitido -->
+</div>
+<div class="container">
+  <a href="#"
+    ><img
+      src="img/Favoritos.svg"
+      alt="Meus favoritos"
+      class="container__imagem container__imagem-transparente"
+  /></a>
+
+  <!-- Código omitido -->
+</div>
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__imagem-transparente {
+    display: none;
+  }
+}
+vvvvv@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .cabeçalho__menu-hamburguer {
+    display: none;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .cabeçalho__menu-hamburguer {
+    display: none;
+  }
+}
+vvv<ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+
+  <!-- Código omitido -->
+</ul>
+vv<ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+
+  <!-- Código omitido -->
+</ul><ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+
+  <!-- Código omitido -->
+</ul><ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+
+  <!-- Código omitido -->
+</ul>
+vvvvvv<ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+  <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+  <li class="opções__item">
+    <a href="#" class="opções__link">Minha estante</a>
+  </li>
+</ul>v<ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+  <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+  <li class="opções__item">
+    <a href="#" class="opções__link">Minha estante</a>
+  </li>
+</ul>
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  /* Código omitido */
+}vvvv@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  /* Código omitido */
+}v@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  /* Código omitido */
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+vv@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão {
+    display: none;
+  }
+
+  /* Código omitido */
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão {
+    display: none;
+  }
+
+  /* Código omitido */
+}
